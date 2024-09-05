@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-	printf("Ch.Durga Narendra-192211285\n");
+    printf("Ch.Durga Narendra-192211285\n");
     int num, i, is_prime = 1;
     printf("Enter a number: ");
     scanf("%d", &num);

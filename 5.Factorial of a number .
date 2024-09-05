@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+	printf("Ch.Durga Narendra-192211285\n");
+    int num, factorial = 1, i;
+    printf("Enter a number: ");
+    scanf("%d", &num);
+    if (num < 0) {
+        printf("Error: Factorial of negative numbers is not defined.\n");
+        return 1;
+    }
+    for (i = 1; i <= num; i++) {
+        factorial *= i;
+    }
+    printf("Factorial of %d is: %d\n", num, factorial);
+    return 0;
+}
